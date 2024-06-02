@@ -124,3 +124,6 @@ public class IntLinkedList {
     }
 
 }
+// TODO:
+// - add method that is an equivalent of top and pop methods but for the first element,
+// - add method for pushing an element to the list's beginning.
