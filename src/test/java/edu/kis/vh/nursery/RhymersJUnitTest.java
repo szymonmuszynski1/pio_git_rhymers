@@ -54,6 +54,7 @@ public class RhymersJUnitTest {
 
         result = rhymer.peekaboo();
         Assert.assertEquals(testValue, result);
+        
         result = rhymer.peekaboo();
         Assert.assertEquals(testValue, result);
     }
@@ -71,6 +72,7 @@ public class RhymersJUnitTest {
 
         result = rhymer.countOut();
         Assert.assertEquals(testValue, result);
+        
         result = rhymer.countOut();
         Assert.assertEquals(EMPTY_STACK_VALUE, result);
     }
